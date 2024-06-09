@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --header-height: 70px;
+  --light-background-color:#ffffff;
+  --light-background-hover-color:#dbdbdb;
+  --light-border-color:#ccc;
+  --light-font-color:#000000;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  html {
+    font-size: 18px;
+  }
+}
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  min-height: var(--header-height);
+  padding: 0 1.3rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-background-color);
+  border-bottom: 1px solid black;
+}
+.header__left {
+  display: flex;
+  flex-direction: row;
+  gap: 1.1rem;
+}
+.header__left__bars {
+  border: none;
+  background-color: var(--light-background-color);
+  height: 2.1rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header__left__bars i {
+  font-size: 1.4rem;
+  color: var(--light-font-color);
+}
+.header__left__bars:hover {
+  background-color: var(--light-background-hover-color);
+}
+.header__left__logo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.2rem;
+}
+.header__left__logo__img {
+  height: 1.6rem;
+}
+.header__left__logo__name {
+  font-size: 1.1rem;
+  color: var(--light-font-color);
+}
+.header__left__logo__region {
+  position: absolute;
+  font-size: 0.6rem;
+  top: -0.1rem;
+  right: -0.9rem;
+  color: var(--light-font-color);
+}
+.header__mid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+}
+.header__mid__close {
+  display: none;
+  background-color: var(--light-background-color);
+  color: var(--light-font-color);
+  border: none;
+  height: 2.1rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header__mid__close i {
+  font-size: 1.4rem;
+}
+.header__mid__close:hover {
+  background-color: var(--light-background-hover-color);
+}
+.header__mid__search {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+.header__mid__search input {
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  background-color: var(--light-background-color);
+  color: var(--light-font-color);
+  border: 1px solid var(--light-border-color);
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.header__mid__search input:focus {
+  border-color: blue;
+}
+.header__mid__search button {
+  background-color: var(--light-background-color);
+  color: var(--light-font-color);
+  height: 2.5rem;
+  padding: 0 1.1rem;
+  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  border: none;
+  border: 1px solid var(--light-border-color);
+  border-left: none;
+  cursor: pointer;
+}
+.header__mid__search button i {
+  font-size: 1.4rem;
+}
+.header__mid__search button:hover {
+  background-color: var(--light-background-hover-color);
+}
+.header__mid__voice {
+  background-color: var(--light-background-color);
+  color: var(--light-font-color);
+  border: none;
+  height: 2.1rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header__mid__voice i {
+  font-size: 1.4rem;
+}
+.header__mid__voice:hover {
+  background-color: var(--light-background-hover-color);
+}
+.header__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.header__right button {
+  background-color: var(--light-background-color);
+  color: var(--light-font-color);
+  border: none;
+  height: 2.1rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header__right button i {
+  font-size: 1.4rem;
+}
+.header__right button:hover {
+  background-color: var(--light-background-hover-color);
+}
+
+.content {
+  margin-top: var(--header-height);
+  display: flex;
+  flex-direction: row;
+}
+.content__leftside {
+  width: 5rem;
+  transition: width 0.3s;
+  background-color: darkseagreen;
+}
+.content__leftside.open {
+  width: 15rem;
+}/*# sourceMappingURL=style.css.map */
