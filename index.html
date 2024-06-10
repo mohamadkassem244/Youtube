@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div class="header">
+    <header class="header">
 
         <div class="header__left">
             <button class="header__left__bars"><i class="fa-solid fa-bars"></i></button>
@@ -21,13 +21,16 @@
         </div>
 
         <div class="header__mid">
-            <button class="header__mid__close">
+            <button class="header__mid__closesearch">
                 <i class="fa-solid fa-arrow-left"></i>
             </button>
             <div class="header__mid__search">
                 <input type="text" placeholder="Search">
                 <button><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
+            <button class="header__mid__opensearch">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
             <button class="header__mid__voice">
                 <i class="fa-solid fa-microphone"></i>
             </button>
@@ -35,20 +38,90 @@
 
         <div class="header__right">
             <button><i class="fa-solid fa-plus"></i></button>
-            <button><i class="fa-regular fa-bell"></i></button>
+            <button class="notification">
+                <i class="fa-regular fa-bell"></i>
+                <p>9+</p>
+            </button>
             <button><i class="fa-solid fa-circle-user"></i></button>
         </div>
 
-    </div>
+    </header>
 
-    <div class="content">
-        <div class="content__leftside">
-            <div>
-                
+    <main class="content">
+        <aside class="content__leftside">
+            <div class="content__leftside__mobile">
+                <button class="content__leftside__mobile__bars"><i class="fa-solid fa-bars"></i></button>
+                <a class="content__leftside__mobile__logo" href="#">
+                    <img class="content__leftside__mobile__logo__img" src="./Youtube_logo.png" alt="youtube-logo">
+                    <div class="content__leftside__mobile__logo__name">YouTube</div>
+                    <div class="content__leftside__mobile__logo__region">LB</div>
+                </a>
             </div>
-        </div>
+            <div class="content__leftside__sections">
+                <a class="content__leftside__sections__item" href="#">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </a>
+                <a class="content__leftside__sections__item" href="#">
+                    <i class="fa-solid fa-stopwatch-20"></i>
+                    <p>Shorts</p>
+                </a>
+                <a class="content__leftside__sections__item" href="#">
+                    <i class="fa-solid fa-square-check"></i>
+                    <p>Subscriptions</p>
+                </a>
+            </div>
+        </aside>
 
-    </div>
+        <section class="content__videos">
+
+                <div class="content__videos__item">
+                    <a href="#" class="content__videos__item__top">
+                        <img src="https://i.ytimg.com/vi/2isYuQZMbdU/maxresdefault.jpg" alt="">
+                        <div class="content__videos__item__top__time">12:20</div>
+                    </a>
+                    <div class="content__videos__item__bottom">
+                        <a href="#" class="content__videos__item__bottom__channelimage">
+                            <img src="https://yt3.ggpht.com/ytc/APkrFKY455xp16s2AIHalRjK60zas-DitxAHmRjQsXPE2A=s48-c-k-c0x00ffffff-no-rj" alt="">
+                        </a>
+                        <div class="content__videos__item__bottom__info">
+                           <a href="#" class="content__videos__item__bottom__info__title">I Gave My 100,000,000th Subscriber An Island</a>
+                           <a href="#" class="content__videos__item__bottom__info__channelname">MrBeast <i class="fa-solid fa-circle-check"></i></a>
+                           <div class="content__videos__item__bottom__info__viewsdate">179M views • 2 years ago</div>
+                        </div>
+                        <div class="content__videos__item__bottom__option">
+                            <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content__videos__item">
+                    <a href="#" class="content__videos__item__top">
+                        <img src="https://i.ytimg.com/vi/FV3bqvOHRQo/maxresdefault.jpg" alt="">
+                        <div class="content__videos__item__top__time">12:20</div>
+                    </a>
+                    <div class="content__videos__item__bottom">
+                        <a href="#" class="content__videos__item__bottom__channelimage">
+                            <img src="https://yt3.ggpht.com/ytc/APkrFKboOY7FNjHAd7XlU5KKDxs9JS9JdeF_XkhCe7xacOU=s48-c-k-c0x00ffffff-no-rj" alt="">
+                        </a>
+                        <div class="content__videos__item__bottom__info">
+                           <a href="#" class="content__videos__item__bottom__info__title">Aquaman and the Lost Kingdom | Trailer</a>
+                           <a href="#" class="content__videos__item__bottom__info__channelname">DC <i class="fa-solid fa-circle-check"></i></a>
+                           <div class="content__videos__item__bottom__info__viewsdate">14M views • 2 weeks ago</div>
+                        </div>
+                        <div class="content__videos__item__bottom__option">
+                            <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+        </section>
+
+        <section class="content__shorts">
+
+        </section>
+
+    </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./script.js"></script>
