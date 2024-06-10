@@ -22,4 +22,17 @@ $(document).ready(function() {
         $(".header__mid__search").toggleClass("open", open);
     }
 
+    $(".content__all__showshorts__btn").click(function() {
+        $(".content__all__shorts").toggleClass("close");
+        $(".content__all__showshorts img").toggleClass("close");
+        $(".content__all__showshorts__btn").toggleClass("close");
+        $(".content__all__showshorts__btn i").toggleClass("fa-x fa-rotate-right fa-flip-horizontal");
+        $(".content__all__showshorts").toggleClass("open");
+       if ($(".content__all__showshorts__name").text() === "Shorts") {
+        $(".content__all__showshorts__name").text("Show Shorts");
+        } else {
+            $(".content__all__showshorts__name").text("Shorts");
+        }
+    });
+
 });
