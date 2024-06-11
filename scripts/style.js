@@ -1,9 +1,12 @@
 $(document).ready(function() {
 
-    $(".header__left__bars , .content__leftside__mobile__bars , .blackscreen").click(function() {
+    $(".header__left__bars").click(function() {
+        $(".content__all").toggleClass("open");
         $(".content__leftside").toggleClass("open");
         $(".content__leftside__sections").toggleClass("open");
         $(".content__leftside__sections__item").toggleClass("open");
+        $(".content__leftside__me").toggleClass("open");
+        $(".content__leftside__explore").toggleClass("open");
     });
 
     $(".header__mid__opensearch").click(function() {
