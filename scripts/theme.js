@@ -4,7 +4,7 @@ $(document).ready(function() {
       setDarkMode();
     }
     
-    $("#change-theme").click(function() {
+    $("#btn").click(function() {
       setTheme();
     });
 
@@ -19,11 +19,13 @@ $(document).ready(function() {
 
     function setDarkMode() {
       $("body").attr("theme", "dark");
+      $(".header__left__logo__img").attr("src", "./images/youtube-logo-dark.png");
       localStorage.setItem("theme", "dark");
     }
 
     function setLightMode() {
       $("body").removeAttr("theme");
+      $(".header__left__logo__img").attr("src", "./images/youtube-logo-light.png");
       localStorage.setItem("theme", "light");
     }
   });

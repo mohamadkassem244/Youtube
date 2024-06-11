@@ -104,17 +104,13 @@
             text-decoration: none;
             gap: 0.2rem;
             &__img{
-                height: 1.6rem;
-            }
-            &__name{
-                font-size: 1.1rem;
-                color: var(--light-font-color);
+                height: 1.85rem;
             }
             &__region{
                 position: absolute;
                 font-size: 0.6rem;
                 top: -0.1rem;
-                right: -0.9rem;
+                right: -0.7rem;
                 color: var(--light-font-color);
             }
         }
@@ -301,7 +297,7 @@
         flex-direction: column;
         overflow-x: hidden;
         background-color: var(--light-background-color);
-        transition: width 0.5s;
+        transition: width 0.2s;
         overflow-y: hidden;
         &::-webkit-scrollbar {
             width: 0.4rem;
@@ -458,7 +454,7 @@
     &__all{
         display: flex;
         flex-direction: column;
-        transition: margin-left 0.5s;
+        transition: margin-left 0.2s;
         @media only screen and (max-width: 992px) {
             margin-left: 0;
             &.open{
