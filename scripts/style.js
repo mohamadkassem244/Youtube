@@ -7,6 +7,7 @@ $(document).ready(function() {
         $(".content__leftside__sections__item").toggleClass("open");
         $(".content__leftside__me").toggleClass("open");
         $(".content__leftside__explore").toggleClass("open");
+        $(".content__leftside__other").toggleClass("open");
     });
 
     $(".header__mid__opensearch").click(function() {

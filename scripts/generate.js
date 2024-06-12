@@ -72,6 +72,26 @@ const videos = [
     channelImage:
       "https://yt3.ggpht.com/ytc/APkrFKYEQF6gsVF5E9fbOS_7lPDgooEZ3__D2z9A5RQVVQ=s48-c-k-c0x00ffffff-no-rj",
   },
+  {
+    title: "Highlights Barcelona 6-5 Paris Saint-Germain 🔥 (GREATEST COMEBACK!) || UCL 2017 Full HD 1080i",
+    channel: "HL MATCH",
+    views: "1.5M",
+    date: "2 months ago",
+    image: "https://i.ytimg.com/vi/lyXvpwveJDk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA-wUgv4PJnZhYbzMI1NsR6DOZljg",
+    time: "18:05",
+    channelImage:
+      "https://yt3.ggpht.com/BA5Jw_FL4QFebmVbBCTa0iMsWTDBrEQFCJwXUresYlYqHPwVHjHxbfl7-n_q6cXToXxLbbYg=s68-c-k-c0x00ffffff-no-rj",
+  },
+  {
+    title: "Nico Williams ● Barcelona Transfer Target 🔵🔴🇪🇸 Best Skills, Goals & Assists",
+    channel: "SVMM",
+    views: "234K",
+    date: "1 month ago",
+    image: "https://i.ytimg.com/vi/iKE3bFJEOxI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9O78IbVm1ykyNZhRzrPI09Fys5A",
+    time: "8:50",
+    channelImage:
+      "https://yt3.ggpht.com/HKIQucZ8TZWc5kY_vJn8OuUhz-SrQf0Q5R7v8iEHX_nuYEryKA8t1PNgcfiw41DFXCjf1ktt=s68-c-k-c0x00ffffff-no-rj",
+  },
 ];
 
 const shorts = [
@@ -99,7 +119,32 @@ const shorts = [
     image: "https://i.ytimg.com/vi/bBgiG-6eX2k/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAqkTQtTvkZ6VIW0pDfqi4I0n84Zg",
     title : "Nokia 7610 5G",
     views: "51M"
-  }
+  },
+  {
+    image: "https://i.ytimg.com/vi/4_pNpNAx6jU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA_-7UBNF_BZNMPFGt2gky6vLJ9Tw",
+    title : "the future of GPUs #shorts",
+    views: "16M"
+  },
+  {
+    image: "https://i.ytimg.com/vi/bQDaZOUfdrs/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAe7casV5ZM6xltEv7WzUDf6AyPIg",
+    title : "This Mini Laptop is Amazing! 😯",
+    views: "6.7M"
+  },
+  {
+    image: "https://i.ytimg.com/vi/8Caox0T6nO8/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLC4IoHVcIor8AYa28zxoOj8hf7obQ",
+    title : "How to Make Air Cooler | DIY Cooling Fan | DC 12V Fan",
+    views: "2.6M"
+  },
+  {
+    image: "https://i.ytimg.com/vi/opRm3x9vHH0/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAS1ppFplb1nPeWwwQZ_waYjt4jtw",
+    title : "Programming Language Tier List",
+    views: "2.5M"
+  },
+  {
+    image: "https://i.ytimg.com/vi/649swZGbrBU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAQUFqmXWLYUh2MTPp4LR5tikkmEA",
+    title : "Rating Nvidia GTX 10 GPUs",
+    views: "2.1M"
+  },
 
 ];
 
