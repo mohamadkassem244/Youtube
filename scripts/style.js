@@ -8,6 +8,7 @@ $(document).ready(function() {
         $(".content__leftside__me").toggleClass("open");
         $(".content__leftside__explore").toggleClass("open");
         $(".content__leftside__other").toggleClass("open");
+        $(".content__leftside__copyright").toggleClass("open");
     });
 
     $(".header__mid__opensearch").click(function() {
@@ -38,5 +39,7 @@ $(document).ready(function() {
             $(".content__all__showshorts__name").text("Shorts");
         }
     });
+
+    $("#current-year").text(new Date().getFullYear());
 
 });

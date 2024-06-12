@@ -4,7 +4,7 @@ $(document).ready(function() {
       setDarkMode();
     }
     
-    $("#btn").click(function() {
+    $("#change-theme").click(function() {
       setTheme();
     });
 
@@ -20,12 +20,14 @@ $(document).ready(function() {
     function setDarkMode() {
       $("body").attr("theme", "dark");
       $(".header__left__logo__img").attr("src", "./images/youtube-logo-dark.png");
+      $("#change-theme i").toggleClass("fa-solid fa-moon fa-regular fa-lightbulb");
       localStorage.setItem("theme", "dark");
     }
 
     function setLightMode() {
       $("body").removeAttr("theme");
       $(".header__left__logo__img").attr("src", "./images/youtube-logo-light.png");
+      $("#change-theme i").toggleClass("fa-solid fa-moon fa-regular fa-lightbulb");
       localStorage.setItem("theme", "light");
     }
   });

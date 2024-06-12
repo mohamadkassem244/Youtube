@@ -1,0 +1,55 @@
+:root {
+    --header-height: 70px;
+    --background-color:#ffffff;
+    --background-second-color:#ffffff;
+    --background-hover-color:#dbdbdb;
+    --border-color:#cccccccc;
+    --font-color:#000000;
+    --second-font-color:#9e9e9e;
+}
+
+[theme = dark] {
+    --background-color:#000000;
+    --background-second-color:#212121;
+    --background-hover-color:#717171;
+    --border-color:#ffffff33;
+    --font-color:#ffffff;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+
+    &::-webkit-scrollbar {
+        width: 0.6rem;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--second-font-color);
+        border-radius: 0.5rem;
+    }
+      
+    &::-webkit-scrollbar-track {
+        background: var(--background-color);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    html {
+      font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    html {
+      font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    html {
+      font-size: 18px;
+    }
+}
