@@ -351,6 +351,9 @@
   margin: 0 0.5rem;
   gap: 1.1rem;
 }
+.content__leftside__sections .me p {
+  margin-right: 0.3rem;
+}
 .content__leftside__sections.open {
   border-bottom: 1px solid var(--border-color);
   gap: 0.3rem;
@@ -584,7 +587,7 @@
   position: absolute;
   bottom: 0.4rem;
   right: 0.4rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   padding: 0.2rem;
   border-radius: 0.3rem;
   text-align: center;
@@ -594,6 +597,11 @@
   opacity: 1;
   visibility: visible;
   transition: opacity 0.4s, visibility 0.4s;
+}
+@media only screen and (max-width: 992px) {
+  .content__all__videos__item__top__time {
+    font-size: 1rem;
+  }
 }
 .content__all__videos__item__bottom {
   display: flex;
@@ -684,6 +692,7 @@
 .content__all__showshorts__name {
   font-size: 1.2rem;
   font-weight: bold;
+  color: var(--font-color);
 }
 .content__all__showshorts__btn {
   margin-left: auto;

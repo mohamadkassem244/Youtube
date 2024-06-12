@@ -286,6 +286,13 @@
             padding: 0.5rem 0;
             margin: 0 0.5rem;
             gap: 1.1rem;
+
+            & .me{
+                & p{
+                    margin-right: 0.3rem;
+                }
+                
+            }
             &.open{
                 border-bottom: 1px solid var(--border-color);
                 gap: 0.3rem;
@@ -512,7 +519,7 @@
                         position: absolute;
                         bottom: 0.4rem;
                         right: 0.4rem;
-                        font-size: 0.8rem;
+                        font-size: 0.85rem;
                         padding: 0.2rem;
                         border-radius: 0.3rem;
                         text-align: center;
@@ -522,6 +529,9 @@
                         opacity: 1;
                         visibility: visible;
                         transition: opacity 0.4s , visibility 0.4s;
+                        @media only screen and (max-width: 992px) {
+                            font-size: 1rem;
+                        }
                     }
                 }
                 &__bottom{
@@ -616,6 +626,7 @@
             &__name{
                 font-size: 1.2rem;
                 font-weight: bold;
+                color: var(--font-color);
             }
             &__btn{
                 margin-left: auto;
